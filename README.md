@@ -30,10 +30,22 @@ In this tutorial, we will share out resources on the network, give permissions a
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-
-  
+- Using the Domain Controller, under the C-Drive Directory, create three folders, "No-Access," "Read-Access," and "Write-Access"
+- Using Client-1 as a host on the domain, login as a domain user and reach the network path of network shared resources "//dc-1"
+- As a user of the domain, attempt to read "No-Access" and observe the denial of access prompt.
+- As a user of the domain, attempt to read "Read-Access" and attempt to create or modify a file. Observe the denial of access prompt.
+- As a user of the domain, attempt to read "write-Access" and attempt to create or modify a file.
+- Using the domain controller, using the Server Manager, under "Computers and Users" on Active Directory create a Security Group on the domain.
 <img width="1680" alt="Screen Shot 2023-10-11 at 10 51 27 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/5d17e29b-2777-4e9d-9b09-0f70756bac35">
+
+Using the Domain Controller, under the C-Drive Directory, create three folders, "No-Access"
+
+
+<img width="1680" alt="Screen Shot 2023-10-11 at 10 51 27 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/ff94e52e-1deb-4d97-b1dd-e1a54a4fd216">
+
+Using the Domain Controller, under the C-Drive Directory, create three folders, "Read-Access"
+
+
+<img width="1680" alt="Screen Shot 2023-10-11 at 10 52 17 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/11d1f030-4855-4916-9d2f-15769453533f">
+
+Using the Domain Controller, under the C-Drive Directory, create three folders, "Write-Access"
