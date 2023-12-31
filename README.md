@@ -35,7 +35,10 @@ In this tutorial, we will share out resources on the network, give permissions a
 - As a user of the domain, attempt to read "No-Access" and observe the denial of access prompt.
 - As a user of the domain, attempt to read "Read-Access" and attempt to create or modify a file. Observe the denial of access prompt.
 - As a user of the domain, attempt to read "write-Access" and attempt to create or modify a file.
-- Using the domain controller, using the Server Manager, under "Computers and Users" on Active Directory create a Security Group on the domain.
+- Using the domain controller, using the Server Manager, under "Computers and Users" on Active Directory create a Security Group "Accountants" on the domain.
+- Add a user to the "accountants" Security Group and make them a member with Read/Write permissions through Active Directory.
+- Restart the host computer on the domain and sign in as the added user of the "accountants" security groups.
+- As a user of the "Accountants" Security Group, attempt to read and modify the shared "accountants" folder.
 <img width="1680" alt="Screen Shot 2023-10-11 at 10 51 27 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/5d17e29b-2777-4e9d-9b09-0f70756bac35">
 
 Using the Domain Controller, under the C-Drive Directory, create three folders, "No-Access"
@@ -49,3 +52,25 @@ Using the Domain Controller, under the C-Drive Directory, create three folders, 
 <img width="1680" alt="Screen Shot 2023-10-11 at 10 52 17 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/11d1f030-4855-4916-9d2f-15769453533f">
 
 Using the Domain Controller, under the C-Drive Directory, create three folders, "Write-Access"
+
+
+<img width="1680" alt="Screen Shot 2023-10-11 at 10 56 25 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/b2ece609-d23e-4d2d-9cce-17564871d9bd">
+
+As a user of the domain, attempt to read "No-Access" and observe the denial of access prompt.
+
+<img width="1680" alt="Screen Shot 2023-10-11 at 10 56 47 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/0256819e-ba87-4f22-8d16-3a6b6ffd3a48">
+
+As a user of the domain, attempt to read "Read-Access" and attempt to create or modify a file. Observe the denial of access prompt.
+
+
+<img width="1680" alt="Screen Shot 2023-10-11 at 10 57 18 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/ae591e99-d985-4c01-b9bf-820fea36b106">
+
+As a user of the domain, attempt to read "write-Access" and attempt to create or modify a file.
+
+
+<img width="1680" alt="Screen Shot 2023-10-11 at 10 58 20 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/812321a7-6d18-49c2-bb17-4f0c1bbec029">
+
+
+Using the domain controller, using the Server Manager, under "Computers and Users" on Active Directory create a Security Group "Accountants" on the domain.
+
+
