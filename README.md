@@ -39,7 +39,8 @@ In this tutorial, we will share out resources on the network, give permissions a
 - Add a user to the "accountants" Security Group and make them a member with Read/Write permissions through Active Directory.
 - Restart the host computer on the domain and sign in as the added user of the "accountants" security groups.
 - As a user of the "Accountants" Security Group, attempt to read and modify the shared "accountants" folder.
-<img width="1680" alt="Screen Shot 2023-10-11 at 10 51 27 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/5d17e29b-2777-4e9d-9b09-0f70756bac35">
+- Using the Domain Controller, under the C-Drive Directory, create "Accountants" and share the folder into the domain with read and write permissions.
+- <img width="1680" alt="Screen Shot 2023-10-11 at 10 51 27 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/5d17e29b-2777-4e9d-9b09-0f70756bac35">
 
 Using the Domain Controller, under the C-Drive Directory, create three folders, "No-Access"
 
@@ -72,5 +73,16 @@ As a user of the domain, attempt to read "write-Access" and attempt to create or
 
 
 Using the domain controller, using the Server Manager, under "Computers and Users" on Active Directory create a Security Group "Accountants" on the domain.
+
+
+<img width="1680" alt="Screen Shot 2023-10-11 at 10 58 20 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/e9d7e021-d41d-4428-8e67-0cf37a339b46">
+
+
+Using the domain controller, using the Server Manager, under "Computers and Users" on Active Directory create a Security Group "Accountants" on the domain.
+
+
+<img width="1680" alt="Screen Shot 2023-10-11 at 10 58 43 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/30c34d00-8709-4dd6-86f7-41c0da32c026">
+
+Add a user to the "accountants" Security Group and make them a member with Read/Write permissions through Active Directory.
 
 
