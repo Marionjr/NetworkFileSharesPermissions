@@ -3,7 +3,8 @@ How to Share files through the network and managing permissions
 
 
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+<img width="1680" alt="Screenshot 2023-12-30 at 10 19 01 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/36960176-ddff-4c6c-a2f6-0aeb61d4e45b">
+
 </p>
 
 <h1>Network File Sharing and Permissions </h1>
@@ -18,14 +19,14 @@ In this tutorial, we will share out resources on the network, give permissions a
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- 
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
-- Wireshark (Protocol Analyzer)
+- Server Manager
+- Active Directory
+  
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows Server 2019
 
 <h2>High-Level Steps</h2>
 
@@ -33,3 +34,6 @@ In this tutorial, we will share out resources on the network, give permissions a
 - Step 2
 - Step 3
 - Step 4
+
+  
+<img width="1680" alt="Screen Shot 2023-10-11 at 10 51 27 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/5d17e29b-2777-4e9d-9b09-0f70756bac35">
