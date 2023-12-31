@@ -38,9 +38,10 @@ In this tutorial, we will share out resources on the network, give permissions a
 - Using the domain controller, using the Server Manager, under "Computers and Users" on Active Directory create a Security Group "Accountants" on the domain.
 - Add a user to the "accountants" Security Group and make them a member with Read/Write permissions through Active Directory.
 - Restart the host computer on the domain and sign in as the added user of the "accountants" security groups.
-- As a user of the "Accountants" Security Group, attempt to read and modify the shared "accountants" folder.
 - Using the Domain Controller, under the C-Drive Directory, create "Accountants" and share the folder into the domain with read and write permissions.
-- <img width="1680" alt="Screen Shot 2023-10-11 at 10 51 27 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/5d17e29b-2777-4e9d-9b09-0f70756bac35">
+- As a user of the "Accountants" Security Group, attempt to read and modify the shared "accountants" folder.
+
+ <img width="1680" alt="Screen Shot 2023-10-11 at 10 51 27 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/5d17e29b-2777-4e9d-9b09-0f70756bac35">
 
 Using the Domain Controller, under the C-Drive Directory, create three folders, "No-Access"
 
@@ -85,4 +86,11 @@ Using the domain controller, using the Server Manager, under "Computers and User
 
 Add a user to the "accountants" Security Group and make them a member with Read/Write permissions through Active Directory.
 
+<img width="1680" alt="Screen Shot 2023-10-11 at 10 59 39 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/bfd0dce7-af18-424a-ac2a-ac7c4d575f1b">
 
+Using the Domain Controller, under the C-Drive Directory, create "Accountants" and share the folder into the domain with read and write permissions.
+
+
+<img width="1680" alt="Screen Shot 2023-10-11 at 11 02 17 PM" src="https://github.com/Marionjr/NetworkFileSharesPermissions/assets/130338872/0abb6128-3e99-49da-91b2-c824ad6ce196">
+
+As a user of the "Accountants" Security Group, attempt to read and modify the shared "accountants" folder.
